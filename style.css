@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+nav{
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 400px;
+
+}
+
+nav a{
+    color: yellow;
+    margin-right: 25px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+main{
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    color: yellow;
+}
+
+#luxury{
+    display: flex;
+    justify-content: space-between;
+}
+
+.luxury-text{
+    color: yellow;
+
+}
+
+.luxury-text p{
+    font-size: 25px;
+}
+
+.cars-photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cars-photos img{
+    height: 150px;
+    width: 100%;
+}
+
+button{
+    height: 30px;
+    width: 15%;
+    margin-bottom: 30px;
+    border-radius: 5px solid black;
+}
+
+.cars-photos p{
+    color: white;
+}
+
+.eqv{
+    background-color: purple;
+}
+
+
+.mercedes{
+    background-color: purple;
+}
+
+.cullinan{
+    background-color: purple;
+}
+
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+#about h2{
+    color: purple;
+}
+
+#about p{
+    color: white;
+}
+
+#about li{
+    color: white;
+}
+
+.entreprise{
+    background-color: blueviolet;
+}
+
+.showrooms{
+    background-color: blueviolet;
+}
+
+.information{
+    background-color: blueviolet;
+}
